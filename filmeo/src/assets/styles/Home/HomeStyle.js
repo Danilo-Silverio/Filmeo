@@ -2,7 +2,8 @@ import styled from "styled-components";
 
 export const Page = styled.div`
   min-height: 100vh;
-  background-image: linear-gradient(to bottom, #42288c, #5c3cb8);
+  background-color: #42288c;
+ 
   overflow-x: hidden;
   main {
     display: flex;
@@ -26,7 +27,7 @@ export const Page = styled.div`
       width: 15rem;
       border: none;
       border-radius: 30px;
-      margin-top: 5%;
+      margin: 5%;
       font-size: 1.4rem;
       font-weight: 700;
       color: #fff;
@@ -45,6 +46,7 @@ export const Page = styled.div`
     align-items: center;
     justify-content: center;
     width: 100%;
+    background-color: #5c3cb8;
     img {
       height: 700px;
     }

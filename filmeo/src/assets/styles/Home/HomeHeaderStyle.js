@@ -7,6 +7,7 @@ justify-content: space-between;
 height: 8vh;
 max-width: 100vw;
 padding: 2% 5%;
+background-color: #5b3cb856;
 img{
     height: 5rem;
 }
