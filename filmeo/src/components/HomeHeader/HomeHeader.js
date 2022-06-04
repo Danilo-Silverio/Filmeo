@@ -17,9 +17,9 @@ const HomeHeader = () => {
       <NavigationBar>
         <nav>
           <ul>
-            <li>Início</li>
-            <li>Sobre</li>
-            <li>Contato</li>
+            <li onClick={() => window.scrollTo(0, 0)}>Início</li>
+            <li onClick={() => window.scrollTo(0, 1300)}>Sobre</li>
+            <li onClick={() => window.scrollTo(0, 2000)}>Contato</li>
           </ul>
         </nav>
       </NavigationBar>
