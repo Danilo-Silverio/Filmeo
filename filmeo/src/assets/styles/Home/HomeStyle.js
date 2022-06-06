@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Page = styled.div`
   min-height: 100vh;
   background-color: #42288c;
- 
   overflow-x: hidden;
   main {
     display: flex;
@@ -33,12 +32,14 @@ export const Page = styled.div`
       color: #fff;
       background-color: #38d44a;
       cursor: pointer;
+      transition: all 0.3s ease;
     }
     button:hover {
       background-color: #187a238c;
     }
     button:active {
     }
+
   }
   section:nth-child(2) {
     display: flex;
@@ -114,7 +115,7 @@ export const Text = styled.div`
   margin-top: 2%;
   p {
     font-size: 1.3rem;
-    font-weight: 500;
+    font-weight: 400;
     color: #988bc0;
   }
   h1 {

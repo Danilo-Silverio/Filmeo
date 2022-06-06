@@ -1,4 +1,5 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 import {
   Header,
   HeaderButtons,
@@ -7,8 +8,12 @@ import {
   SignUpButton,
 } from "../../assets/styles/Home/HomeHeaderStyle";
 import Logo from "../../assets/images/logo.png";
+import { goToMovies } from "../../router/coordinator";
 
 const HomeHeader = () => {
+  
+  const navigate = useNavigate();
+
   return (
     <Header>
       <div>
@@ -24,8 +29,8 @@ const HomeHeader = () => {
         </nav>
       </NavigationBar>
       <HeaderButtons>
-        <LoginButton>Login</LoginButton>
-        <SignUpButton>Sign Up</SignUpButton>
+        <LoginButton onClick={() => goToMovies(navigate)}>Entrar</LoginButton>
+        <SignUpButton>Registre-se</SignUpButton>
       </HeaderButtons>
     </Header>
   );

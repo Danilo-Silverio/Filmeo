@@ -5,7 +5,7 @@ export const Footer = styled.footer`
     flex-direction: column;
     align-items: center;
     height: fit-content;
-    background-color: #06090d;
+    background-color: #0b0a0a;
 `;
 export const Main = styled.div`
     display: flex;
