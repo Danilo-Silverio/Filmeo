@@ -30,7 +30,7 @@ li{
     align-items: center;
     height: 4vh;
     padding: 3%;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-weight: 500;
     border: 2px solid transparent;
     color: #988bc0;

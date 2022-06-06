@@ -19,6 +19,9 @@ const GlobalState = (props) => {
     const [activeGenre, setActiveGenre] = useState();
     const [buttonCliked, setButtonClicked] = useState(false);
     const [page, setPage] = useState(1);
+    const [cast, setCast] = useState([]);
+    const [movieInfo, setMovieInfo] = useState([]);
+    const [similarFilm, setSimiliarFilm] = useState([]);
 
     // ENDPOINTS
     const getGenres = () => {
@@ -151,6 +154,12 @@ const GlobalState = (props) => {
 
     const data = {
         page,
+        cast,
+        movieInfo,
+        similarFilm,
+        setSimiliarFilm,
+        setMovieInfo,
+        setCast,
         setPage,
         getGenres,
         getPopularMovies,
