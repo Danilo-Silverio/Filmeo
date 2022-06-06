@@ -66,6 +66,10 @@ width: 8rem;
 border-radius: 5px;
 background-color: #4d3592;
 cursor: pointer;
+transition: all 0.3s ease;
+:hover{
+    background-color: #af9ee25e;
+}
 @media screen and (max-width: 770px){
     height: 2rem;
     width: 5rem;
@@ -82,6 +86,6 @@ background-color: #38d44a;
 cursor: pointer;
 @media screen and (max-width: 770px){
     height: 2rem;
-    width: 5rem;
+    width: 7rem;
 }
 `;
