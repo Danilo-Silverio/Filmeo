@@ -8,6 +8,7 @@ export const CastContent = styled.div`
     width: 90vw;
     overflow-y: hidden;
     overflow-x: scroll;
+    margin-top: 10%;
     ::-webkit-scrollbar {
         height: 18px;
     }
@@ -45,13 +46,13 @@ export const CastCard = styled.div`
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    height: 70vh;
+    height: 80vh;
     padding: 0 0.8%;
     margin-top: 1%;
     color: #fff;
     img{
         height: 70%;
-        width: 20rem;
+        width: 17rem;
         border-radius: 20px;
     }
     h2{

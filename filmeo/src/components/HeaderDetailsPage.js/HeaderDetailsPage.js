@@ -22,7 +22,7 @@ const HeaderDetailsPage = () => {
         <nav>
           <ul>
             <li onClick={() => window.scrollTo(0, 2000)}>Informações</li>
-            <li onClick={() => window.scrollTo(0, 1500)}>Elenco</li>
+            <li onClick={() => window.scrollTo(0, 1300)}>Elenco</li>
             <li onClick={() => window.scrollTo(0, 4000)}>Recomendações</li>            
           </ul>
         </nav>
