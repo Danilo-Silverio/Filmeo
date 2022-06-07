@@ -1,70 +1,96 @@
-# Getting Started with Create React App
+# Filmeo - Aplicativo de Streaming
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Está cansado de ficar horas encarando telas tentando as achar os melhores filmes para assistir no seu tempo livre? O Filmeo é a solução, apresento a vocês o aplicativo que mostra somente os filmes e séries mais populares  do momento para curtir com sua família.
 
-## Available Scripts
+(Link surge)
 
-In the project directory, you can run:
+Venha conhecer o <a href="filmeo.surge.sh">Filmeo.</a>
 
-### `npm start`
+# Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 📑 Qual seu objetivo?
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Usando a API de filmes gratuita themoviedb em sua versão 3, foi desenvolvido uma listagem dos filmes e séries mais populares do momento, consultando os endpoints `GET ${/movie/popular} & ${tv/popular}` para realizar a listagem. Ao clicar em um item dessa listagem, outra página com os detalhes da opção selecionada deve ser exibida. Para acessar mais detalhes sobre nosso catálogo, foram utilizados os endpoints `GET {/movie/{movie_id}} &{tv/{tv_id}`. Para garantir que o usuário encontre o seu contéudo ideal, essa lista está paginada, podendo navegar entre páginas e escolher a melhor opção para você.
 
-### `npm test`
+As referências utilizadas para desenvolvimento desse projeto foram:
+- Case Front End Promobit Danilo-Silverio: <a href="https://github.com/future4code/moreira-Danilo-Silverio/tree/master/rodada-cases-semana1" target="_blanc">Danilo-Silverio GitHub</a> & <a href="https://case-frontend-promobit-danilo-silverio.surge.sh/" target="_blanc">Link Surge.</a>
+- Case Front End Promobit: <a href="https://github.com/Promobit/front-end-challenge" target="_blanc">Promobit.</a>
+- Design: <a href="https://www.figma.com/file/rM7WPqhLY9ObnGzSCeWLxB/Teste-Front-End?node-id=16%3A1199" target="_blanc">Figma.</a> 
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📚 Tecnologias & Bibliotecas utilizadas:
 
-### `npm run build`
+    - Reactjs
+    - Styled-Components
+    - Axios
+    - API's Rest
+    - Global State.
+    - useState & useEffect.
+    - Router
+    - Material UI.
+    - Componentização & Estrutura de Pastas.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ✅ Desafios do Projeto
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `Funcionais`
 
-### `npm run eject`
+* O usuário deve ter acesso a uma listagem dos filmes mais populares do dia.
+* O usuário deve conseguir paginar a lista para encontrar novos filmes.
+* O usuário deve ter acesso a uma outra página com detalhes sobre o filme, ao clicar em um item na listagem.
+* A página com detalhes de um filme deve possuir uma rota própria e estar preparada para ser indexada em mecanismos de pesquisa.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### `Não funcionais`
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+* O app deverá ser criado usando React.
+* Na raiz do projeto, será necessário incluir um arquivo README md com as instruções para construir seu projeto localmente.
+* Opcionalmente você pode detalhar as razões pelas escolhas de ferramentas e técnicas aplicadas ao desafio.
+* O app deverá se comportar da mesma forma na última versão estável dos seguintes browsers: Chrome, Firefox, Edge.
+* O app deverá ser responsivo
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 🛠️ Como faço rodar projeto?
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### `git clone`
 
-## Learn More
+Clone o link https do projeto no GitHub para seu repositório local através do terminal utilizando o comando `git clone link do projeto`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### `npm install`
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Após ter o repósitorio clonado em seu computador utilize o comando `npm install` para instalar todas suas dependências.
 
-### Code Splitting
+### `npm run start`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+O comando `npm run start` serve para iniciar o projeto e verificar como ele renderiza em seu computador.
 
-### Analyzing the Bundle Size
+# Interface & Design
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Home
 
-### Making a Progressive Web App
+<div>
+   <img align="center"  height="300" width="900" src="https://user-images.githubusercontent.com/94642853/172435294-8017ed1a-1232-4ffc-b456-d523651404ff.png"/>
+   <img align="center"  height="300" width="900" src="https://user-images.githubusercontent.com/94642853/172435640-4b28609f-b396-4f71-8c63-40b7a15aa05b.png"/>
+   <img align="center"  height="300" width="900" src="https://user-images.githubusercontent.com/94642853/172435992-ebda05d7-bfc7-4532-9f1f-178c34f2adbc.png"/>
+   <img align="center"  height="300" width="900" src="https://user-images.githubusercontent.com/94642853/172437475-8d59e351-1df9-4d79-9e6e-ab2d342d3a22.png"/>
+   <img align="center"  height="300" width="900" src="https://user-images.githubusercontent.com/94642853/172437882-3139837d-edbb-4610-9b60-91537c4e2a0c.png"/>  
+</div>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Feed
 
-### Advanced Configuration
+<div>
+   <img align="center"  height="300" width="900" src="https://user-images.githubusercontent.com/94642853/172444584-37ce873e-12fd-4d16-8694-df19e480de3b.png"/>
+   <img align="center"  height="300" width="900" src="https://user-images.githubusercontent.com/94642853/172451860-36ce307e-9949-4fa4-84e8-83a925b971a4.png"/>
+   <img align="center"  height="300" width="900" src="https://user-images.githubusercontent.com/94642853/172452255-2c429e75-8f4e-4530-898c-c403be06b13c.png"/>
+   <img align="center"  height="300" width="900" src="https://user-images.githubusercontent.com/94642853/172452454-e73542d4-5230-4406-b4dd-c48e1edc3d67.png"/>
+   <img align="center"  height="300" width="900" src="https://user-images.githubusercontent.com/94642853/172453117-5490a1a5-7e7a-4520-9cd6-9b2fca97d2d4.png"/>
+   <img align="center"  height="300" width="900" src="https://user-images.githubusercontent.com/94642853/172454396-2b0e682f-a8ab-4009-9ddd-24580bb58d1a.png"/> 
+</div>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Página Filme
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<div>
+   <img align="center"  height="300" width="900" src="https://user-images.githubusercontent.com/94642853/172444584-37ce873e-12fd-4d16-8694-df19e480de3b.png"/>
+   <img align="center"  height="300" width="900" src="https://user-images.githubusercontent.com/94642853/172451860-36ce307e-9949-4fa4-84e8-83a925b971a4.png"/>
+   <img align="center"  height="300" width="900" src="https://user-images.githubusercontent.com/94642853/172452255-2c429e75-8f4e-4530-898c-c403be06b13c.png"/>
+   <img align="center"  height="300" width="900" src="https://user-images.githubusercontent.com/94642853/172452454-e73542d4-5230-4406-b4dd-c48e1edc3d67.png"/>
+   <img align="center"  height="300" width="900" src="https://user-images.githubusercontent.com/94642853/172453117-5490a1a5-7e7a-4520-9cd6-9b2fca97d2d4.png"/>
+   <img align="center"  height="300" width="900" src="https://user-images.githubusercontent.com/94642853/172454396-2b0e682f-a8ab-4009-9ddd-24580bb58d1a.png"/> 
+</div>
