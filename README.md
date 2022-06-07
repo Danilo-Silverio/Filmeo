@@ -4,7 +4,7 @@ Está cansado de ficar horas encarando telas tentando as achar os melhores filme
 
 (Link surge)
 
-Venha conhecer o <a href="https://filmeo.surge.sh/" target="_blanc">Filmeo.</a>
+Venha conhecer o <a href="https://filmeo.surge.sh/" target="_blank">Filmeo.</a>
 
 # Projeto
 
@@ -13,9 +13,9 @@ Venha conhecer o <a href="https://filmeo.surge.sh/" target="_blanc">Filmeo.</a>
 Usando a API de filmes gratuita themoviedb em sua versão 3, foi desenvolvido uma listagem dos filmes e séries mais populares do momento, consultando os endpoints `GET ${/movie/popular} & ${tv/popular}` para realizar a listagem. Ao clicar em um item dessa listagem, outra página com os detalhes da opção selecionada deve ser exibida. Para acessar mais detalhes sobre nosso catálogo, foram utilizados os endpoints `GET {/movie/{movie_id}} &{tv/{tv_id}`. Para garantir que o usuário encontre o seu contéudo ideal, essa lista está paginada, podendo navegar entre páginas e escolher a melhor opção para você.
 
 As referências utilizadas para desenvolvimento desse projeto foram:
-- Case Front End Promobit Danilo-Silverio: <a href="https://github.com/future4code/moreira-Danilo-Silverio/tree/master/rodada-cases-semana1" target="_blanc">Danilo-Silverio GitHub</a> & <a href="https://case-frontend-promobit-danilo-silverio.surge.sh/" target="_blanc">Link Surge.</a>
-- Case Front End Promobit: <a href="https://github.com/Promobit/front-end-challenge" target="_blanc">Promobit.</a>
-- Design: <a href="https://www.figma.com/file/rM7WPqhLY9ObnGzSCeWLxB/Teste-Front-End?node-id=16%3A1199" target="_blanc">Figma.</a> 
+- Case Front End Promobit Danilo-Silverio: <a href="https://github.com/future4code/moreira-Danilo-Silverio/tree/master/rodada-cases-semana1" target="_blank">Danilo-Silverio GitHub</a> & <a href="https://case-frontend-promobit-danilo-silverio.surge.sh/" target="_blank">Link Surge.</a>
+- Case Front End Promobit: <a href="https://github.com/Promobit/front-end-challenge" target="_blank">Promobit.</a>
+- Design: <a href="https://www.figma.com/file/rM7WPqhLY9ObnGzSCeWLxB/Teste-Front-End?node-id=16%3A1199" target="_blank">Figma.</a> 
 
 ## 📚 Tecnologias & Bibliotecas utilizadas:
 
