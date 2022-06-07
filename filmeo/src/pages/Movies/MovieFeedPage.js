@@ -1,9 +1,9 @@
 import React, { useContext, useEffect } from "react";
 import { Page, Footer } from "../../assets/styles/Movies/MovieFeedStyle";
-import MoviePageHeader from "../../components/MoviePageHeader/MoviePageHeader";
 import GlobalStateContext from "../../global/GlobalStateContext";
 import CustomPagination from "../../components/Pagination/CustomPagination";
 import Feed from "../../components/Feed/Feed";
+import HeaderPage from "../../components/MoviePageHeader/MoviePageHeader";
 
 
 
@@ -21,7 +21,7 @@ const MovieFeedPage = () => {
 
   return (
     <Page>
-      <MoviePageHeader />
+      <HeaderPage/>
       <Feed/>
       <Footer>
         <CustomPagination setPage={setPage} />

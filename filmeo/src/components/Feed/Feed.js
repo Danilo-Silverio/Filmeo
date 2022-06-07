@@ -25,7 +25,7 @@ const Feed = () => {
         <Catalog>{popularMovieCatalog}</Catalog>
       </CatalogContent>
       <CatalogContent>
-        <h2>Melhores avaliados</h2>
+        <h2>Melhores avaliações</h2>
         <Catalog>{topRatedCatalog}</Catalog>
       </CatalogContent>
       <CatalogContent>
