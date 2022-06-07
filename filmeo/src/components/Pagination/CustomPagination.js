@@ -11,6 +11,7 @@ const CustomPagination = ({setPage}) => {
     return (
         <Pagination 
             count={100}
+            color="primary"
             hidePrevButton
             variant="outlined"
             onChange={(e) => handlePageChange(e.target.textContent)}

@@ -22,6 +22,7 @@ const GlobalState = (props) => {
     const [cast, setCast] = useState([]);
     const [movieInfo, setMovieInfo] = useState([]);
     const [similarFilm, setSimiliarFilm] = useState([]);
+    const [tvInfo, setTvInfo] = useState([]);
 
     // ENDPOINTS
     const getGenres = () => {
@@ -157,6 +158,8 @@ const GlobalState = (props) => {
         cast,
         movieInfo,
         similarFilm,
+        tvInfo,
+        setTvInfo,
         setSimiliarFilm,
         setMovieInfo,
         setCast,

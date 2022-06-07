@@ -1,7 +1,7 @@
 import React, { useContext, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { getCast } from "../../services/getMovieCast";
-import { CastCard, CastContainer } from "../../assets/styles/MovieInfo/CastInfo";
+import { CastCard, CastContent } from "../../assets/styles/MovieInfo/CastInfo";
 import { IMG_API } from "../../constants/urls";
 import GlobalStateContext from "../../global/GlobalStateContext";
 
@@ -23,16 +23,17 @@ const MovieCast = () => {
         return (
           <CastCard key={i}>
             <img src={IMG_API + c.profile_path} alt={c.name} />
-            <h1>{c.name}</h1>
-            <h2>{c.character}</h2>
+            <h2>{c.name}</h2>
+            <h3>{c.character}</h3>
           </CastCard>
         )
       });
     
     return (
-        <CastContainer>
-            {castFilm}
-        </CastContainer>
+        <CastContent>
+          <div><h1>Elenco</h1></div>
+          <div>{castFilm}</div>
+        </CastContent>
     )
 };
 

@@ -73,6 +73,7 @@ transition: all 0.3s ease;
 @media screen and (max-width: 770px){
     height: 2rem;
     width: 5rem;
+    font-size: 0.9rem;
 }
 `;
 export const SignUpButton = styled.div`
@@ -86,6 +87,7 @@ background-color: #38d44a;
 cursor: pointer;
 @media screen and (max-width: 770px){
     height: 2rem;
-    width: 7rem;
+    width: 6rem;
+    font-size: 0.8rem;
 }
 `;

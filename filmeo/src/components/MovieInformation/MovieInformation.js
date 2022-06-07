@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 import { getMovieDetail } from "../../services/getMovieById";
 import { IMG_API } from "../../constants/urls";
 import GlobalStateContext from "../../global/GlobalStateContext";
-import { CardInformations, Film, Infos } from "../../assets/styles/MovieInfo/MovieInfo";
+import { Film, Infos } from "../../assets/styles/MovieInfo/MovieInfo";
 
 const MovieInformation = () => {
     
@@ -33,7 +33,7 @@ const MovieInformation = () => {
         });
     
         return (
-          <CardInformations key={item.id}>
+          <div key={item.id}>
             <Film>
               <img src={IMG_API + item.poster_path} alt={item.title} />
               <Infos>
@@ -45,21 +45,7 @@ const MovieInformation = () => {
                 <p>{item.overview}</p>
               </Infos>
             </Film>
-            {/* <div>
-              <div>
-                <h1>{item.title} ({year})</h1>
-                <div>
-                  <p>{day}/{mounth}/{year} (BR){" "}</p>
-                  {genres}
-                </div>
-                <p><span>{item.vote_average}</span> Avaliação dos usuários</p>
-              </div>
-              <div>
-                <h2>Sinopse</h2>
-                <p>{item.overview}</p>
-              </div>
-            </div> */}
-          </CardInformations>
+          </div>
         );
       });
 

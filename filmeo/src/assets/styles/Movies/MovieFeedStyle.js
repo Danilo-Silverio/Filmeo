@@ -17,8 +17,9 @@ export const FeedPoster = styled.div`
     width: 100vw;
     @media screen and (max-width: 750px){
         img{
-            height: 11rem;
-            width: 19rem;
+            margin-top: 10%;
+            height: 14rem;
+            width: 100vw;
         }
     }
 `
@@ -100,5 +101,6 @@ export const Footer = styled.footer`
     justify-content: center;
     height: 10vh;
     width: 100vw;
-    margin: 2% 0 2% 0;
+    margin: 12% 0 0 0;
+    background-color: #42288c;
 `;

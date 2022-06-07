@@ -1,13 +1,13 @@
 import styled from "styled-components";
 
-export const Film = styled.div`
+export const Series = styled.div`
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
     height: 100vh;
-    width: 100vw;
     padding: 3% 2% 0 5%;
     color: #fff;
+    background-image: linear-gradient(to bottom, #07020b, #0b0a0a );
     img{
         height: 40rem;
         border-radius: 20px;

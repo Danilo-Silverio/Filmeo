@@ -33,15 +33,16 @@ const RecommendedMovie = () => {
     return (
       <RecommendedMovieCard key={film.id}>
         <img src={IMG_API + film.backdrop_path} alt="" />
-        <h1>{film.title}</h1>
-        <h2><strong>Lançamento:</strong> {day}/{mounth}/{year}</h2>
+        <h2>{film.title}</h2>
+        <h3><strong>Lançamento:</strong> {day}/{mounth}/{year}</h3>
       </RecommendedMovieCard>
     )
   });
 
   return (
     <SimilarContainer>
-      {filmRecomendation}
+      <div><h1>Recomendados</h1></div>
+      <div>{filmRecomendation}</div>
     </SimilarContainer>
   );
 };

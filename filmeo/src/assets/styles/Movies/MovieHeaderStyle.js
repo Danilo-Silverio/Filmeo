@@ -4,14 +4,15 @@ export const Header = styled.header`
 display: flex;
 align-items: center;
 justify-content: space-between;
-height: 8vh;
+height: 2vh;
 max-width: 100vw;
-padding: 2% 5%;
+padding: 3% 5%;
 background-color: #42288c;
 img{
     height: 5rem;
 }
 @media screen and (max-width: 770px){
+    height: 10vh;
     padding: 1% 3%;
     img{
         height: 3rem;
@@ -70,7 +71,8 @@ display: flex;
 align-items: center;
 justify-content: center;
 height: 3rem;
-width: 8rem;
+width: 6rem;
+margin-right: 10%;
 border-radius: 5px;
 background-color: #4d3592;
 cursor: pointer;

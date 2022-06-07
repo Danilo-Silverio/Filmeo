@@ -5,7 +5,7 @@ export const Catalog = styled.div`
   height: 34rem;
   overflow-x: scroll;
   ::-webkit-scrollbar {
-        height: 8px;
+        height: 18px;
     }
     ::-webkit-scrollbar-track {
         background-color: #DDDDDD;
@@ -17,6 +17,9 @@ export const Catalog = styled.div`
     }
   @media screen and (max-width: 750px){
     height: fit-content;
+    ::-webkit-scrollbar {
+    display: none;
+  }
   }
 `;
 export const MovieCard = styled.div`
