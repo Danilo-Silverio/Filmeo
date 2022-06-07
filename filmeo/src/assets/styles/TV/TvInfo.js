@@ -4,7 +4,7 @@ export const Series = styled.div`
     display: flex;
     align-items: flex-start;
     justify-content: flex-start;
-    height: 100vh;
+    min-height: 100vh;
     padding: 3% 2% 0 5%;
     color: #fff;
     background-image: linear-gradient(to bottom, #07020b, #0b0a0a );
