@@ -31,8 +31,8 @@ export const Infos = styled.div`
     display: flex;
     flex-direction: column;
     h1{
-        font-size: 2rem;
-        width: 80%;
+        font-size: 2.5rem;
+        width: 90%;
     }
     p{
         font-size: 1.1rem;

@@ -8,7 +8,7 @@ export const CastContent = styled.div`
     width: 90vw;
     overflow-y: hidden;
     overflow-x: scroll;
-    margin-top: 20%;
+    margin-top: 10%;
     ::-webkit-scrollbar {
         height: 18px;
     }

@@ -5,7 +5,7 @@ export const Series = styled.div`
     align-items: flex-start;
     justify-content: flex-start;
     min-height: 100vh;
-    padding: 3% 2% 0 5%;
+    padding: 3% 2% 5% 5%;
     color: #fff;
     background-image: linear-gradient(to bottom, #07020b, #0b0a0a );
     img{
