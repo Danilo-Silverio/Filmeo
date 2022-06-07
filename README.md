@@ -4,7 +4,7 @@ Está cansado de ficar horas encarando telas tentando as achar os melhores filme
 
 (Link surge)
 
-Venha conhecer o <a href="https://filmeo.surge.sh/" target="_blank">Filmeo.</a>
+Venha conhecer o <a href="https://filmeo-app.surge.sh/" target="_blank">Filmeo.</a>
 
 # Projeto
 
