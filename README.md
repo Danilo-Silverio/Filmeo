@@ -82,7 +82,7 @@ O comando `npm run start` serve para iniciar o projeto e verificar como ele rend
 ## Página Filme
 
 <div>
-   <img align="center"  height="100" width="900" src="https://user-images.githubusercontent.com/94642853/176246861-2af52d5c-7a8b-4d58-bc66-6f2d7bbf0720.png"/> 
+   <img align="center"  height="50" width="900" src="https://user-images.githubusercontent.com/94642853/176246861-2af52d5c-7a8b-4d58-bc66-6f2d7bbf0720.png"/> 
    <img align="center"  height="400" width="900" src="https://user-images.githubusercontent.com/94642853/176246327-9a55fa55-79ec-43a2-b1b8-4193b118588a.png"/>
    <img align="center"  height="100" width="900" src="https://user-images.githubusercontent.com/94642853/176246658-74ca4a87-8902-4fbf-9809-aefce5bb1a58.png"/> 
    <img align="center"  height="400" width="900" src="https://user-images.githubusercontent.com/94642853/176245869-d9eb7e72-35b4-4f98-b7d9-226b19f2a4d9.png"/>
