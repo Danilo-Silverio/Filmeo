@@ -2,8 +2,6 @@
 
 Está cansado de ficar horas encarando telas tentando as achar os melhores filmes para assistir no seu tempo livre? O Filmeo é a solução, apresento a vocês o aplicativo que mostra somente os filmes e séries mais populares  do momento para curtir com sua família.
 
-(Link surge)
-
 Venha conhecer o <a href="https://filmeo-app.surge.sh/" target="_blank">Filmeo.</a>
 
 # Projeto
@@ -74,12 +72,11 @@ O comando `npm run start` serve para iniciar o projeto e verificar como ele rend
 ## Feed
 
 <div>
-   <img align="center"  height="300" width="900" src="https://user-images.githubusercontent.com/94642853/172444584-37ce873e-12fd-4d16-8694-df19e480de3b.png"/>
-   <img align="center"  height="300" width="900" src="https://user-images.githubusercontent.com/94642853/176245205-5d74252b-a928-4941-8312-a580ea44a91d.png"/>
-   <img align="center"  height="300" width="900" src="https://user-images.githubusercontent.com/94642853/172452255-2c429e75-8f4e-4530-898c-c403be06b13c.png"/>
-   <img align="center"  height="300" width="900" src="https://user-images.githubusercontent.com/94642853/172452454-e73542d4-5230-4406-b4dd-c48e1edc3d67.png"/>
-   <img align="center"  height="300" width="900" src="https://user-images.githubusercontent.com/94642853/172453117-5490a1a5-7e7a-4520-9cd6-9b2fca97d2d4.png"/>
-   <img align="center"  height="300" width="900" src="https://user-images.githubusercontent.com/94642853/172454396-2b0e682f-a8ab-4009-9ddd-24580bb58d1a.png"/> 
+   <img align="center"  height="50" width="900" src="https://user-images.githubusercontent.com/94642853/176248635-55efbb5d-a53a-4d10-b0c4-9d78d26c3187.png"/>
+   <img align="center"  height="400" width="900" src="https://user-images.githubusercontent.com/94642853/176248518-cfec6e2b-6ca5-42a4-b3f7-aa4a227e19f8.png"/>
+   <img align="center"  height="400" width="900" src="https://user-images.githubusercontent.com/94642853/176249049-94611274-dc5e-4fa4-be60-e74fb38088da.png"/>
+   <img align="center"  height="100" width="900" src="https://user-images.githubusercontent.com/94642853/176249285-69cc5ad4-2b85-4034-9324-4a203cbfeae6.png"/>
+   <img align="center"  height="400" width="900" src="https://user-images.githubusercontent.com/94642853/176249392-c5050555-3895-4d39-a3a7-b2b62ee5a138.png"/
 </div>
 
 ## Página Filme
