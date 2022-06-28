@@ -75,7 +75,7 @@ O comando `npm run start` serve para iniciar o projeto e verificar como ele rend
 
 <div>
    <img align="center"  height="300" width="900" src="https://user-images.githubusercontent.com/94642853/172444584-37ce873e-12fd-4d16-8694-df19e480de3b.png"/>
-   <img align="center"  height="300" width="900" src="https://user-images.githubusercontent.com/94642853/172451860-36ce307e-9949-4fa4-84e8-83a925b971a4.png"/>
+   <img align="center"  height="300" width="900" src="https://user-images.githubusercontent.com/94642853/176245205-5d74252b-a928-4941-8312-a580ea44a91d.png"/>
    <img align="center"  height="300" width="900" src="https://user-images.githubusercontent.com/94642853/172452255-2c429e75-8f4e-4530-898c-c403be06b13c.png"/>
    <img align="center"  height="300" width="900" src="https://user-images.githubusercontent.com/94642853/172452454-e73542d4-5230-4406-b4dd-c48e1edc3d67.png"/>
    <img align="center"  height="300" width="900" src="https://user-images.githubusercontent.com/94642853/172453117-5490a1a5-7e7a-4520-9cd6-9b2fca97d2d4.png"/>
@@ -85,10 +85,14 @@ O comando `npm run start` serve para iniciar o projeto e verificar como ele rend
 ## Página Filme
 
 <div>
-   <img align="center"  height="300" width="900" src="https://user-images.githubusercontent.com/94642853/172444584-37ce873e-12fd-4d16-8694-df19e480de3b.png"/>
-   <img align="center"  height="300" width="900" src="https://user-images.githubusercontent.com/94642853/172451860-36ce307e-9949-4fa4-84e8-83a925b971a4.png"/>
-   <img align="center"  height="300" width="900" src="https://user-images.githubusercontent.com/94642853/172452255-2c429e75-8f4e-4530-898c-c403be06b13c.png"/>
-   <img align="center"  height="300" width="900" src="https://user-images.githubusercontent.com/94642853/172452454-e73542d4-5230-4406-b4dd-c48e1edc3d67.png"/>
-   <img align="center"  height="300" width="900" src="https://user-images.githubusercontent.com/94642853/172453117-5490a1a5-7e7a-4520-9cd6-9b2fca97d2d4.png"/>
-   <img align="center"  height="300" width="900" src="https://user-images.githubusercontent.com/94642853/172454396-2b0e682f-a8ab-4009-9ddd-24580bb58d1a.png"/> 
+   <img align="center"  height="100" width="900" src="https://user-images.githubusercontent.com/94642853/176246861-2af52d5c-7a8b-4d58-bc66-6f2d7bbf0720.png"/> 
+   <img align="center"  height="400" width="900" src="https://user-images.githubusercontent.com/94642853/176246327-9a55fa55-79ec-43a2-b1b8-4193b118588a.png"/>
+   <img align="center"  height="100" width="900" src="https://user-images.githubusercontent.com/94642853/176246658-74ca4a87-8902-4fbf-9809-aefce5bb1a58.png"/> 
+   <img align="center"  height="400" width="900" src="https://user-images.githubusercontent.com/94642853/176245869-d9eb7e72-35b4-4f98-b7d9-226b19f2a4d9.png"/>
+   <img align="center"  height="100" width="900" src="https://user-images.githubusercontent.com/94642853/176246658-74ca4a87-8902-4fbf-9809-aefce5bb1a58.png"/> 
+   <img align="center"  height="400" width="900" src="https://user-images.githubusercontent.com/94642853/176246027-a9b35b7a-39ef-4296-99ef-4f75957fb31b.png"/>
 </div>
+
+
+
+
